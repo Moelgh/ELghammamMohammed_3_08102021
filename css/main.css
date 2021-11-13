@@ -93,6 +93,11 @@ section {
     position: relative;
     margin-top: -50px;
     }
+.full__menu {
+    display: flex;
+    justify-content: space-around;
+}
+
 .maps {
     background: #eaeaea;
     display: flex;
@@ -161,3 +166,70 @@ section {
     height: 100%;
     max-height: 220px;
     }
+.meals {
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 6px #aaa;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: padding-right 450ms ease-in-out;
+}
+.meals:hover {
+    padding-right: 75px;
+    }
+.meals:hover .cross {
+    opacity: 1;
+    transform: translate(-50px);
+    }
+.meals:hover .fa-check-circle {
+    transform: rotate(360deg);
+}
+.meals h4 {
+    margin: 0;
+  }
+  
+.menu__title {
+    font-family: Shrikhand, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 90px;
+  }
+.starter {
+    animation: fadein 3s ease-in-out;
+    width: 400px;
+  }
+.dish {
+    width: 400px;
+    animation: fadein 6s ease-in-out;
+}
+  .dessert {
+    width: 400px;
+    animation: fadein 9s ease-in-out;
+}
+.starter h3, .dish h3, .dessert h3 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.last__line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5em;
+    padding-right: 20px;
+}
+.last__line p {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+  .last__line span {
+    margin-right: 5px;
+}
