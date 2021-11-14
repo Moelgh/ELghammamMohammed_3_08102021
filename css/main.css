@@ -66,7 +66,7 @@ section {
 .optionsteps li:hover .fas {
     color: #9356dc;
     }
-    .optionsteps--number {
+.optionsteps--number {
     background-color: #9356dc;
     color: white;
     border-radius: 50%;
@@ -233,3 +233,23 @@ section {
   .last__line span {
     margin-right: 5px;
 }
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9356DC;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #9356DC;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 10px;
+  }
+
+.header__img img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+  
