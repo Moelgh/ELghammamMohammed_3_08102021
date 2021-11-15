@@ -1,10 +1,31 @@
 footer {
-    display: block;
-    background-color: #353535;
-    margin: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    padding: 25px;
-    color: white;
+  display: block;
+  background-color: #353535;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  padding: 25px;
+  color: white;
+  text-align: center;
   }
+footer h3 {
+  font-family: "Shrikhand", "sans-serif";
+  padding: 5px 0 20px 0;
+}
+  
+footer a {
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  padding: 5px 0 5px 0;
+}
+footer ul .fa-utensils {
+  margin-right: 12px;
+}
+footer ul .fa-hands-helping {
+  margin-right: 5px;
+}
