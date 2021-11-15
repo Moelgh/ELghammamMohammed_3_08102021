@@ -1,0 +1,10 @@
+footer {
+    display: block;
+    background-color: #353535;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding: 25px;
+    color: white;
+  }
