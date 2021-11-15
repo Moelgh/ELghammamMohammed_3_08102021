@@ -135,7 +135,6 @@ section {
     background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     -webkit-text-fill-color: transparent;
-    
     font-weight: bold;
     }
 .restaurant__title {
@@ -191,7 +190,7 @@ section {
 .meals:hover {
     padding-right: 75px;
     }
-.meals:hover .cross {
+.meals:hover .check {
     opacity: 1;
     transform: translate(-50px);
     }
@@ -292,20 +291,23 @@ section {
     box-shadow: 4px 4px 6px #000;
   }
 
-.check.fa-check-circle {
+.check .fa-check-circle {
     color: #fff;
     transition: transform 500ms ease-in-out;
 }
 .check {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #99E2D0;
     width: 50px;
-    height: 20px;
+    height: 63px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    position: absolute;
     padding: 20px;
     right: -50px;
     top: 0;
     opacity: 0;
-    transition: transform 330ms ease-in-out;
+    transition: transform 330ms ease-in-out
   }
