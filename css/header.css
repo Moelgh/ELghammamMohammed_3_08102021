@@ -3,6 +3,7 @@ body {
   padding: 0;
   width: 100%;
   font-size: 1rem;
+
   }
 * {
   box-sizing: border-box;
@@ -26,10 +27,18 @@ h2 {
 h6 {
   margin: 0;
   }
-
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .logo h1 {
   text-align: center;
   }
 header{
   display: block;
+}
+.arrow {
+  position: absolute;
+  left: 20px;
 }
