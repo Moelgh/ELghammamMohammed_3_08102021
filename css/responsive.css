@@ -1,4 +1,5 @@
 @media screen and (max-width: 816px){
+
 .main__restaurant {
     flex-direction: column;
     width: 100%;
@@ -6,19 +7,9 @@
 .card {
      width: 100%;
      max-width: 100%;
-}
+    }
 .card img {
     height: 10em ;
     }
-}
-.meals {
-    flex-direction: column;
-}
-.menu__title {
-    bottom: 0.1em ;
-    right: 1em ;
-}
-.menu__title{
-    align-items: center;
-    justify-content: space-between;
+         
 }
