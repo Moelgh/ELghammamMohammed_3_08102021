@@ -206,11 +206,11 @@ section {
     font-size: 1.5rem;
 }
 .menu__title {
-    font-family: Shrikhand, sans-serif;
+    font-family: "Shrikhand", "sans-serif";
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 90px;
+    padding: 30px;
   }
 .starter {
     animation: fadein 3s ease-in-out;
@@ -307,3 +307,9 @@ section {
     opacity: 0;
     transition: transform 330ms ease-in-out
   }
+.line{
+    width: 40px;
+    border: 2px solid #99E2D0;
+    margin-left: 10px;
+}
+    
