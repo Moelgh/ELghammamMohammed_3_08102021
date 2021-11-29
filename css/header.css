@@ -7,9 +7,12 @@ body {
   }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
   }
 h1, h6 {
-  font-family: Shrikhand, Roboto, sans-serif;
+  font-family: "Shrikhand", "Roboto", sans-serif;
   }
 body, html {
   font-family: 'Roboto', sans-serif;
