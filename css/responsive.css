@@ -1,15 +1,33 @@
-@media screen and (max-width: 816px){
-
+@media screen and (max-width: 768px){    
+}
 .main__restaurant {
     flex-direction: column;
     width: 100%;
     }
 .card {
      width: 100%;
-     max-width: 100%;
+     max-width: 90%;
+     align-self: center;
+    
     }
 .card img {
     height: 10em ;
     }
-         
+.meals{
+        max-width: 340px;
+    }
+@media screen and (min-width: 1024px){
+
+.main__restaurant {
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    width: 100%;
+    max-width: 35%;
+    
+}
+
 }
