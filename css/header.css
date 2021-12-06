@@ -1,16 +1,15 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-size: 1rem;
-
-  }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
   }
+body{
+  max-width: 1920px;
+  max-height: 1080px;
+}
+div{
+  display: block;
+}
 h1, h6 {
   font-family: "Shrikhand", "Roboto", sans-serif;
   }
@@ -30,6 +29,17 @@ h2 {
 h6 {
   margin: 0;
   }
+
+
+.loader__utensils{
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: rotate 1s linear infinite;
+}
+  
+
 .logo{
   display: flex;
   justify-content: space-around;
@@ -45,3 +55,4 @@ header{
   position: absolute;
   left: 20px;
 }
+
